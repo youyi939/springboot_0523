@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    image: openjdk
+    ports:
+      - "7000:8080"
+    volumes:
+      - $PWD/target:/opt
+    command: java -jar /opt/springboot_0523-0.0.1-SNAPSHOT.jar
