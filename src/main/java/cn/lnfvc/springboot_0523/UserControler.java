@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserControler {
     @RequestMapping(value = "/users")
     public String findAllUsers(){
-        return "Test";
+        return "Test001";
     }
 
 }
